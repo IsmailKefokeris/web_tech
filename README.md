@@ -1,6 +1,6 @@
 # Web Tech Practicals
 
-## Session 1
+## Practical 1
 
 tags Learnt
 
