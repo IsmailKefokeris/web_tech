@@ -1,0 +1,40 @@
+
+body {
+    margin-left: 165pt;
+    margin-right: 165pt;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35pt;
+    margin-bottom: -10pt;
+}
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11pt;
+    color: #595959;
+}
+
+#underTitle {
+    margin-bottom: -10pt;
+}
+
+#linkse, #contact {
+    color: green;
+    text-decoration: none;
+}
+
+#inTextTitle {
+    color: green;
+    text-transform: uppercase;
+    font-size: 13pt;
+}
+
+#dates {
+    font-size: 11pt;
+    font-family: Calibri, sans-serif;
+    margin-top: -15pt;
+    margin-bottom: -12pt;
+}
