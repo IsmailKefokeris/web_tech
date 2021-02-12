@@ -1,0 +1,44 @@
+ul li{
+    list-style: none;
+    display: inline-block;
+    border: 1px black solid;
+    width: 20%;
+    text-align: center;
+}
+
+li:hover{
+    background: lightblue;
+}
+
+#banner{
+    border: 1px black solid;
+    width: 700px;
+    height: 200px;
+}
+
+#left{
+    border: 1px black solid;
+    width: 350px;
+    height: 400px;
+    float: left;
+}
+
+#right{
+    border: 1px black solid;
+    width: 350px;
+    height: 400px;
+    float: left;
+}
+
+#bottom{
+    border: 1px black solid;
+    width: 700px;
+    height: 20px;
+    clear: left;
+}
+
+#wrapper{
+    width: 704px;
+    margin: auto;
+
+}

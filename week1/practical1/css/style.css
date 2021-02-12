@@ -17,24 +17,28 @@ p {
     color: #595959;
 }
 
-#underTitle {
+.underTitle {
     margin-bottom: -10pt;
 }
 
-#linkse, #contact {
+.linkse, .contact {
     color: green;
     text-decoration: none;
 }
 
-#inTextTitle {
+.inTextTitle {
     color: green;
     text-transform: uppercase;
     font-size: 13pt;
 }
 
-#dates {
+.dates {
     font-size: 11pt;
     font-family: Calibri, sans-serif;
     margin-top: -15pt;
     margin-bottom: -12pt;
+}
+
+#myself {
+    width:200px; 
 }
