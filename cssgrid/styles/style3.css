@@ -1,0 +1,32 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 40vw;
+    margin: auto;
+    border: 1px black solid;
+}
+
+body{
+    margin: 0;
+    background: lightgray;
+}
+h1{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    grid-row: 2;
+}
+
+header{
+    display: grid;
+    background: url("../../barebones_webpage_example/img/banner.jpg");
+    width: 100%;
+    height: 40vh;
+    background-position: 0vh;
+    background-size: cover;
+    grid-column: 1/5;
+}
