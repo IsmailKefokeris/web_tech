@@ -1,3 +1,22 @@
+ul li{
+    list-style: none;
+    display: inline-block;
+    border: 1px black solid;
+    width: 20%;
+    text-align: center;
+
+}
+
+li:hover{
+    background: lightblue;
+}
+
+#wrapper{
+    width: 704px;
+    margin: auto;
+
+}
+
 body{
     font-family: 'Trebuchet MS', Arial;
     margin: 0;
@@ -34,4 +53,13 @@ header{
 
 .left img{
     width: 100%;
+}
+
+@media only screen and (max-width: 800px){
+    
+    ul li{
+        display: block;
+        justify-content: center;
+    }
+
 }
