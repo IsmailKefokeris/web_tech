@@ -1,0 +1,80 @@
+ul li{
+    list-style: none;
+    display: inline-block;
+    border: 1px black solid;
+    width: 20%;
+    text-align: center;
+
+}
+
+li:hover{
+    background: lightblue;
+}
+
+#wrapper{
+    width: 704px;
+    margin: auto;
+
+}
+
+body{
+    font-family: 'Trebuchet MS', Arial;
+    margin: 0;
+}
+
+#cookieBanner{
+    width: 100%;
+    height: 30vh;
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#closeBanner{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+header{
+    width: 100%;
+    height: 75vh;
+    border: 1px solid black;
+    background: url("../img/banner.jpg");
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    font-size: 10vh;
+}
+
+#title{
+    height: 10vh;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.flexcontent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left, .right{
+    width: 40vw;
+}
+
+.left img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px){
+    
+    ul li{
+        display: block;
+        justify-content: center;
+    }
+
+}
