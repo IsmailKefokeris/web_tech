@@ -29,11 +29,22 @@
         <main>
             <div id="generalcontent">
                 
-                <label for="txtname">Name:</label></lab><input id="txtname">
-                <label for="txtage">Age:</label></lab><input id="txtage">
-                <p id="result"></p>
+                <form id="frmexample" onsubmit="validate();">
+                    
+                    <label for="txtname">Name:</label></lab><input name="Name" id="txtname">
+                    <label for="txtage">Age:</label></lab><input name="Age" id="txtage">
+                    <br>
+                    Option 1<input type="radio" name="example" value="op2">
+                    <br>
+                    Option 2<input type="radio" name="example" value="op2">
+                    <br>
+                    <textarea name="comment"></textarea>
+                    <br>
+                    <button id="btnsubmit">Submit</button>
 
-                <button id="btnsubmit">Submit</button>
+                </form>
+
+                <p id="result"></p>
 
             </div>
         </main>
