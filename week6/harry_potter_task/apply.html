@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Hogwarts Home Page</title>
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/apply.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
     </head>
@@ -20,6 +20,43 @@
                 <a href="creatures.html"><li>Creatures</li></a>
                 <a href="apply.html"><li>Apply!</li></a>
             </ul>
+        </div>
+
+        <br>
+        <br>
+        <div id="container">
+            <form id="frmapply">
+                <label for="name">Name:</label><input id="name" name="name">
+                <label for="email">Email:</label><input id="email" name="email">
+                <br>
+                <p>Which House are you apply for?</p>
+                <br>
+                <input type="radio" id="Gryffindor" name="houses" value="Gryffindor">
+                <label for="Gryffindor">Gryffindor</label><br>
+
+                <input type="radio" id="Ravenclaw" name="houses" value="Ravenclaw">
+                <label for="Ravenclaw">Ravenclaw</label><br>
+
+                <input type="radio" id="Hufflepuff" name="houses" value="Hufflepuff">
+                <label for="Hufflepuff">Hufflepuff</label><br>
+
+                <input type="radio" id="Slytherin" name="houses" value="Slytherin">
+                <label for="Slytherin">Slytherin</label><br>
+                <br>
+                <p>What Year group are you applying for?</p>
+                <br>
+                <select id="yeargroup" name="year">
+                    <option value="Year 1">Year 1</option>
+                    <option value="Year 2">Year 2</option>
+                    <option value="Year 3">Year 3</option>
+                    <option value="Year 4+">Year 4+</option>
+                </select>
+                <br>
+                <p>Tell us about yourself, Young Wizard!</p>
+                <textarea id="info" name="infoyourself" rows="6" cols="57"></textarea>
+                <br>
+                <button id="btnsubmit">Submit Application!</button>
+            </form>
         </div>
     </body>
 </html>
