@@ -1,0 +1,43 @@
+/*
+.demo{
+    height: 100px;
+    width: 500px;
+    border: 1px solid green;
+    background-color: gold;
+    display: block;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btndemo{
+    display: block;
+}
+Example of use of javascript to create elements and use of css to edit those elementts*/
+
+#btndemo{
+    display: block;
+    margin: auto;
+}
+
+.eye{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+}
+
+.eyeball{
+    position: absolute;
+    top: 50px;
+    height: 100px;
+    width: 100px;
+    background: black;
+    border-radius: 50%;
+}
