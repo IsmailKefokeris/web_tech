@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>barebones website</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+
+    </head>
+    <body>
+
+        <header>
+            <h1>Welcome</h1>
+        </header>
+
+        <%- include("particles/nav.ejs") %>
+
+        <div id="title">
+            <h2>The Start of Everything is Here!</h2>
+        </div>
+
+        <main>
+            <div id="generalcontent">
+                
+                <form id="frmexample" onsubmit="validate();">
+                    
+                    <label for="txtname">Name:</label></lab><input name="Name" id="txtname">
+                    <label for="txtage">Age:</label></lab><input name="Age" id="txtage">
+                    <br>
+                    Option 1<input type="radio" name="example" value="op2">
+                    <br>
+                    Option 2<input type="radio" name="example" value="op2">
+                    <br>
+                    <textarea name="comment"></textarea>
+                    <br>
+                    <button id="btnsubmit">Submit</button>
+
+                </form>
+
+                <p id="result"></p>
+
+            </div>
+        </main>
+
+        <script src="scripts/formexample.js"></script>
+
+    </body>
+    
+</html>

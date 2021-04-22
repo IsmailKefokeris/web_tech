@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hogwarts About Us Page</title>
+        <link rel="stylesheet" href="styles/about.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <header>
+            <h1>Welcome <br>to Hogwarts!</h1>
+        </header>
+
+        <%- include("particles/navbar.ejs") %>
+
+        <div id="maincontainer">
+            <div id="innercontainer">
+                <h3>About Us</h3>
+                <p>Please Select on of the following filters</p>
+
+                <button id="btnstaff">Staff</button>|<button id="btnsubjects">Subjects</button>
+
+                <p>Please Select an option above</p>
+                <p id="result"></p>
+            </div>
+        </div>
+        <script src="scripts/about.js"></script>
+    </body>
+</html>

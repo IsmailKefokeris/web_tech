@@ -1,0 +1,20 @@
+[{
+    "name": "Albus Dumbledore", 
+    "position": "Headmaster"
+}, 
+{
+    "name": "Severus Snape", 
+    "position": "Potions Master"
+}, 
+{
+    "name": "Minerva McGonagall", 
+    "position": "Transfiguration"
+}, 
+{
+    "name": "Pomona Sprout", 
+    "position": "Herbology"
+}, 
+{
+    "name": "Filius Flitwick", 
+    "position": "Charms"
+}]
